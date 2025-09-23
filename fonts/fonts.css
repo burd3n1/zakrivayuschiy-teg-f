@@ -3,11 +3,11 @@
 @font-face {
     font-display: swap;
     font-family: 'Inter-Variable';
-    font-variation-settings: normal;
+    font-variation-settings: "width" 410, "width" 715;
     src:
             url(./Inter-Variable.woff2) format('woff2 supports variations'),
             url(./Inter-Variable.woff2) format('woff2-variations');
-    font-weight:400 785;
+    font-weight: 400 785;
 }
 
 @font-face {
