@@ -5,7 +5,8 @@
     font-family: 'Inter-Variable';
     font-variation-settings: normal;
     src:
-    url(./Inter-Variable.woff2) format('woff2 support variation , woff2-variation');
+            url(./Inter-Variable.woff2) format('woff2 supports variations'),
+            url(./Inter-Variable.woff2) format('woff2-variations');
     font-weight:400 785;
 }
 

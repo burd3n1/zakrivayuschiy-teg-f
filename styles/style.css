@@ -126,7 +126,7 @@ img {
 
 .card__icon-button:focus-visible {
   outline: none;
-  border: black;
+  border: black 2px solid;
   transition: 0.3s ease;
 }
 
@@ -137,11 +137,6 @@ img {
   height: 38px;
   background-color: white;
   z-index: 5;
-}
-
-.card__icon-button:focus-visible {
-  outline: none;
-  border: 2px solid black;
 }
 
 .card__like-button:focus {
