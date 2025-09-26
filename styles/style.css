@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--general-font) , sans-serif;
-  font-variation-settings: var(--card-font-weight);
+  font-variation-settings: 'wght' var(--card-font-weight-title);
   background-image: var(--background-page-gradient);
   background-size: cover;
   background-attachment: fixed;
@@ -112,7 +112,7 @@ img {
 .card__description {
   font-size: 18px;
   line-height: 117%;
-  font-weight: var(--card-font-weight);
+  font-variation-settings: "wght" var(--card-font-weight);
 }
 
 .social__buttons {
@@ -197,15 +197,15 @@ img {
   border: black 2px solid;
   padding: 17px 12px 17px 20px;
   background-color: white;
-}
-
-.save__button:focus {
-  outline: none;
-  box-shadow: 2px 2px 0 #000;
   transition: box-shadow 0.3s ease;
 }
 
-.save__button:hover::after {
+.button:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 #000;
+}
+
+.button:hover::after {
   transform: scaleX(1);
 }
 
@@ -220,8 +220,8 @@ img {
 
 dialog[open] {
   justify-content: center;
-  width: 353px;
-  padding: 30px 19px;
+  max-width: 353px;
+  padding: 30px 20px;
   border: #000000 2px solid;
 }
 
@@ -274,15 +274,15 @@ dialog::backdrop {
   background-color: white;
   text-transform: uppercase;
   justify-self: center;
-}
-
-.dialog__model-button:focus {
-  outline: none;
-  box-shadow: 2px 2px 0 #000;
   transition: box-shadow 0.3s ease;
 }
 
-.dialog__model-button:hover::after {
+.button:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 #000;
+}
+
+.button:hover::after {
   transform: scaleX(1);
 }
 
